@@ -1,0 +1,18 @@
+
+get http://localhost:3000/api/users
+
+####
+
+post http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "firstName": "Aalia",
+    "lastName": "Hoff",
+    "email": "aalia@gmail.com"
+}
+
+######
+
+DELETE http://localhost:3000/api/deleteUser/62e946e4c2181240abdc7220
+
